@@ -1,0 +1,13 @@
+{
+  "name": "saganizer",
+  "title": "saganIZER",
+  "id": "jid1-X6BaqEhG685X1w",
+  "description": "Carl Sagan. EVERYWHERE.",
+  "author": "Fernando Paladini",
+  "contributors": ["Guilherme Eufrásio Passos", "Carl Sagan Irônico"],
+  "license": "MIT",
+  "version": "0.4.20",
+  "homepage": "https://github.com/paladini/saganIZER",
+  "icon": "data/icon128.jpg",
+  "icon64": "data/icon48.jpg"
+}

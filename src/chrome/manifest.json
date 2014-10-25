@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "saganIZER",
+  "description": "Carl Sagan. EVERYWHERE.",
+  "version": "0.4.20",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["jquery.min.js", "sagan.jquery.js"]
+    }
+  ],
+  "icons": {
+      "16": "icon48.jpg",
+      "32": "icon48.jpg",
+      "48": "icon48.jpg",
+      "128": "icon128.jpg"
+  },
+  "permissions": [
+     "tabs", "http://*/*"
+  ]
+
+}

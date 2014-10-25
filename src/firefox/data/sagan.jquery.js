@@ -115,8 +115,7 @@
         	for(var i = 1; i < saganNames.length; i++){
         		namesToRegexp += "|" + saganNames[i]; 
         	}
-        	var myAwesomeRegexp = new RegExp(namesToRegexp,'gi')
-        	document.body.innerHTML = document.body.innerHTML.replace(myAwesomeRegexp, 'Sagan');
+        	$("body").html($("body").html().replace(new RegExp(namesToRegexp,'gi'),'Sagan'));
         }
     });
 

@@ -4,6 +4,9 @@
   "name": "saganIZER",
   "description": "Carl Sagan. EVERYWHERE.",
   "version": "0.4.20",
+  "author": "Fernando Paladini",
+  "homepage_url": "https://github.com/paladini/saganIZER",
+  "short_name": "saganIZER",
   "content_scripts": [
     {
       "matches": ["*://*/*"],
@@ -11,10 +14,10 @@
     }
   ],
   "icons": {
-      "16": "icon48.jpg",
-      "32": "icon48.jpg",
+      "16": "icon16.jpg",
+      "32": "icon32.jpg",
       "48": "icon48.jpg",
-      "128": "icon128.jpg"
+      "128": "icon128.png"
   },
   "permissions": [
      "tabs", "http://*/*"

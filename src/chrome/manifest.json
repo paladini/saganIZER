@@ -5,7 +5,7 @@
   "description": "Carl Sagan. EVERYWHERE.",
   "version": "0.5.1",
   "author": "Fernando Paladini",
-  "homepage_url": "https://github.com/paladini/saganIZER",
+  "homepage_url": "https://paladini.github.io/saganIZER/",
   "short_name": "saganIZER",
   "content_scripts": [
     {

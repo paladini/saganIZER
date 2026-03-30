@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>saganIZER - Home</title>
+  <meta name="description" content="saganIZER: extensao que aplica um tema visual com referencias ao Carl Sagan em paginas web.">
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #111831;
+      --text: #eaf0ff;
+      --muted: #b7c2e4;
+      --accent: #7cc4ff;
+      --accent2: #b7ffcf;
+      --border: #27345f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background:
+        radial-gradient(900px 500px at 90% -10%, #1b2a57 0%, transparent 60%),
+        radial-gradient(700px 420px at -10% 10%, #20306a 0%, transparent 55%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      width: min(980px, 92vw);
+      margin: 0 auto;
+      padding: 28px 0 54px;
+    }
+    .hero {
+      background: linear-gradient(160deg, #131c39 0%, #0e1530 100%);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 26px;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+    }
+    h1, h2 { line-height: 1.25; margin: 0 0 12px; }
+    h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); }
+    h2 { font-size: clamp(1.2rem, 2.6vw, 1.6rem); margin-top: 30px; }
+    p { margin: 0 0 14px; color: var(--muted); }
+    .tag {
+      display: inline-block;
+      margin-bottom: 10px;
+      background: rgba(124, 196, 255, 0.14);
+      border: 1px solid rgba(124, 196, 255, 0.35);
+      color: var(--accent);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+    .btn {
+      text-decoration: none;
+      padding: 11px 15px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-weight: 600;
+      background: #17224a;
+    }
+    .btn.primary {
+      background: linear-gradient(130deg, #2d67d8, #2aa8b5);
+      border-color: transparent;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+    }
+    ul { margin: 8px 0 0 20px; color: var(--muted); }
+    footer {
+      margin-top: 26px;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+    code { color: var(--accent2); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="tag">saganIZER</div>
+      <h1>Carl Sagan. Everywhere.</h1>
+      <p>
+        O saganIZER e uma extensao de navegador com um objetivo unico: aplicar um tema visual
+        com referencias ao Carl Sagan nas paginas visitadas.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/paladini/saganIZER" target="_blank" rel="noopener">Repositorio no GitHub</a>
+        <a class="btn" href="./privacy.html">Politica de Privacidade</a>
+      </div>
+    </section>
+
+    <h2>Unico proposito</h2>
+    <div class="card">
+      <p>
+        Substituir elementos visuais e alguns termos de texto na pagina aberta para criar uma experiencia
+        tematica. A extensao atua no conteudo exibido ao usuario e nao oferece funcionalidades paralelas.
+      </p>
+    </div>
+
+    <h2>Como funciona</h2>
+    <div class="grid">
+      <article class="card">
+        <strong>Content script</strong>
+        <p>Executa no contexto da pagina para ajustar o DOM localmente no navegador do usuario.</p>
+      </article>
+      <article class="card">
+        <strong>Sem backend proprio</strong>
+        <p>O projeto nao possui API/servidor proprio para coletar ou armazenar dados de uso.</p>
+      </article>
+      <article class="card">
+        <strong>Escopo de host amplo</strong>
+        <p>Necessario para aplicar o efeito de forma consistente nos sites visitados.</p>
+      </article>
+    </div>
+
+    <h2>Links importantes</h2>
+    <div class="card">
+      <ul>
+        <li>Repositorio: <a href="https://github.com/paladini/saganIZER" target="_blank" rel="noopener">github.com/paladini/saganIZER</a></li>
+        <li>Ultima release: <a href="https://github.com/paladini/saganIZER/releases/latest" target="_blank" rel="noopener">GitHub Releases</a></li>
+        <li>Politica de privacidade: <a href="./privacy.html">/privacy.html</a></li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>Pagina oficial do projeto para GitHub Pages.</p>
+    </footer>
+  </main>
+</body>
+</html>

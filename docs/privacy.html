@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>saganIZER - Politica de Privacidade</title>
+  <meta name="description" content="Politica de privacidade da extensao saganIZER.">
+  <style>
+    :root {
+      --bg: #f7f8fc;
+      --card: #ffffff;
+      --text: #1b2440;
+      --muted: #4c5a81;
+      --border: #d7dff4;
+      --accent: #2b5dd1;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(900px 500px at 10% -10%, #dbe5ff 0%, transparent 55%),
+        radial-gradient(800px 420px at 100% 0%, #e3f4ff 0%, transparent 55%),
+        var(--bg);
+      line-height: 1.65;
+    }
+    .wrap {
+      width: min(900px, 92vw);
+      margin: 24px auto 60px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 10px 32px rgba(27, 36, 64, 0.08);
+    }
+    h1, h2 { line-height: 1.25; margin: 0 0 12px; }
+    h1 { font-size: clamp(1.7rem, 3.8vw, 2.2rem); }
+    h2 { font-size: 1.2rem; margin-top: 22px; }
+    p { margin: 0 0 12px; color: var(--muted); }
+    ul { margin: 8px 0 0 20px; color: var(--muted); }
+    a { color: var(--accent); }
+    .toplink { margin-top: 10px; display: inline-block; }
+    .stamp {
+      margin-top: 18px;
+      padding: 10px 12px;
+      border: 1px dashed var(--border);
+      border-radius: 10px;
+      font-size: 0.92rem;
+      color: var(--muted);
+      background: #fafbff;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Politica de Privacidade - saganIZER</h1>
+    <p>
+      Esta politica descreve como a extensao <strong>saganIZER</strong> lida com dados do usuario.
+      O objetivo da extensao e aplicar um efeito visual tematico em paginas visitadas.
+    </p>
+
+    <h2>Resumo</h2>
+    <ul>
+      <li>Nao coletamos dados pessoais.</li>
+      <li>Nao vendemos, alugamos ou compartilhamos dados de usuario com terceiros.</li>
+      <li>Nao usamos dados para publicidade, perfilamento, credito ou emprestimo.</li>
+      <li>Nao temos backend proprio para receber dados do usuario.</li>
+    </ul>
+
+    <h2>Dados coletados</h2>
+    <p>
+      A extensao <strong>nao coleta</strong> nem armazena informacoes de identificacao pessoal,
+      dados financeiros, autenticacao, comunicacoes pessoais, localizacao, historico de navegacao
+      ou outros dados sensiveis.
+    </p>
+
+    <h2>Permissao de host e conteudo de pagina</h2>
+    <p>
+      A extensao usa <em>content scripts</em> para modificar o DOM da pagina localmente no navegador
+      (por exemplo, substituicao de imagens e termos de texto). Esse processamento ocorre no dispositivo
+      do usuario e nao e transmitido para servidores externos.
+    </p>
+
+    <h2>Codigo remoto</h2>
+    <p>
+      Nao usamos codigo remoto executavel. O codigo da extensao e empacotado junto ao item publicado.
+    </p>
+
+    <h2>Retencao e compartilhamento</h2>
+    <p>
+      Como nao coletamos dados de usuario, nao ha retencao nem compartilhamento de dados.
+    </p>
+
+    <h2>Alteracoes desta politica</h2>
+    <p>
+      Esta politica pode ser atualizada para refletir mudancas tecnicas ou regulatórias.
+      Quando houver alteracao relevante, a pagina sera atualizada.
+    </p>
+
+    <h2>Contato</h2>
+    <p>
+      Repositorio oficial: <a href="https://github.com/paladini/saganIZER" target="_blank" rel="noopener">github.com/paladini/saganIZER</a>
+    </p>
+
+    <a class="toplink" href="./index.html">Voltar para a Home</a>
+
+    <div class="stamp">
+      Ultima atualizacao: 2026-03-30
+    </div>
+  </main>
+</body>
+</html>
